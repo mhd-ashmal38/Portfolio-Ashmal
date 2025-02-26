@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../assets/profile.jpeg";
 import nintriva from "../assets/Nintriva.png";
 import luminar from "../assets/lumina.png";
+import resume from "../assets/resume.pdf";
 
 function About() {
   const technicalSkills = [
@@ -84,7 +85,7 @@ function About() {
               You can{" "}
               <a
                 className="underline"
-                href="/resume.pdf"
+                href={resume}
                 download="Mohamed_Ashmal_resume.pdf"
               >
                 download my resume here
