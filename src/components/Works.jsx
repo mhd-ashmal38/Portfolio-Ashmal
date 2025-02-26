@@ -22,7 +22,7 @@ function Works() {
                                 </div>
                             </a>
                         </div>
-                        <p className=' font-sourcecode mt-5 text-justify'>Developed using <b>Angular</b> and <b>Tailwind CSS</b> for the frontend, with <b>Node.js</b> and <b>Express</b> for the backend and <b>MongoDB</b> for data storage.
+                        <p className=' font-sourcecode mt-5 pb-10 text-justify'>Developed using <b>Angular</b> and <b>Tailwind CSS</b> for the frontend, with <b>Node.js</b> and <b>Express</b> for the backend and <b>MongoDB</b> for data storage.
                         </p>
                     </div>
                     <div className='mb-10 rounded-xl'>
