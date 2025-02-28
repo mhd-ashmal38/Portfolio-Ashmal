@@ -13,6 +13,7 @@ function About() {
     { name: "Angular", level: "advanced" },
     { name: "React", level: "advanced" },
     { name: "jQuery", level: "beginner" },
+    { name: "Redux", level: "intermediate" },
     { name: "Sass", level: "advanced" },
     { name: "Bootstrap", level: "advanced" },
     { name: "Tailwind CSS", level: "advanced" },
@@ -153,7 +154,11 @@ function About() {
           <div className="flex gap-5">
             <div>
               <a href="https://www.luminartechnolab.com/" target="_blank">
-                <img src={luminar} alt="Luminar" className="w-24 md:w-24 lg:w-16" />
+                <img
+                  src={luminar}
+                  alt="Luminar"
+                  className="w-24 md:w-24 lg:w-16"
+                />
               </a>
             </div>
             <div>
