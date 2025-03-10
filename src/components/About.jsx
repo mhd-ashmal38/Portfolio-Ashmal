@@ -54,12 +54,9 @@ function About() {
         <h2 className=" font-domine md:text-7xl text-4xl font-semibold">
           Hello there!
         </h2>
-        <div className="md:flex flex-row-reverse gap-4 pt-7">
-          <div className="hidden xl:block max-md:w-4/6 max-md:pb-5">
-            <img className=" rounded-lg" src={profile} width={850} alt="" />
-          </div>
+        <div className="pt-7">
 
-          <div className=" space-y-4 font-sourcecode text-md md:pe-4 xl:border-e border-black text-justify">
+          <div className=" space-y-4 font-sourcecode text-md md:pe-4 border-black text-justify">
             <p>
               I'm Mohamed Ashmal M, a full-stack developer. I’m so passionate
               about coding that I sometimes dream in code. Yes, that’s a thing.
